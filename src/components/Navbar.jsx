@@ -21,7 +21,7 @@ export default function Navbar() {
         </li>
         <li>
           <a
-            href="#contact"
+            href="mailto:qnzdiseno@gmail.com"
             className="text-[13px] font-medium text-white bg-[#2c3a8a] px-5 py-2 rounded-full no-underline hover:bg-[#1e2a6e] transition-colors"
           >
             Contacto
