@@ -22,7 +22,7 @@
   --color-slate-800: #1e1e30;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 1; }
 html { scroll-behavior: smooth; }
 
 body {

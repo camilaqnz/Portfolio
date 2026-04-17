@@ -3,7 +3,7 @@ function AuroraBackground() {
     <div className="absolute inset-0 overflow-hidden" style={{ background: '#1e2a6e' }}>
       <div style={{
         position: 'absolute', inset: 0,
-        background: 'radial-gradient(ellipse 80% 80% at 50% 50%, #2c3a8a 0%, #121a52 100%)',
+        background: 'radial-gradient(ellipse 80% 80% at 50% 50%, #2c3a8a 0%, #ffffff 100%)',
       }} />
       <div style={{
         position: 'absolute', width: '70%', height: '70%', borderRadius: '50%',
@@ -97,7 +97,7 @@ export default function Hero() {
           y en resolver problemas reales del negocio con soluciones claras.
         </p>
 
-        <div className="flex gap-4 flex-wrap">
+        <div className="flex gap-4 flex-wrap btn-padding">
           <a href="#work" className="bg-white text-[#1e2a6e] text-sm font-medium px-8 py-3.5 rounded-full no-underline hover:bg-[#eef0fb] hover:-translate-y-px transition-all">
             Ver proyectos
           </a>
@@ -108,7 +108,7 @@ export default function Hero() {
       </div>
 
       {/* Right */}
-      <div className="relative z-10 flex items-center justify-center py-36">
+      {/* <div className="relative z-10 flex items-center justify-center py-36">
         <div
           className="flex flex-col items-center justify-center gap-4 bg-white/10 border border-white/20 backdrop-blur-sm"
           style={{
@@ -124,7 +124,7 @@ export default function Hero() {
           </div>
           <p className="text-[11px] tracking-wider text-white/40">Tu foto aquí</p>
         </div>
-      </div>
+      </div> */}
 
     </section>
   )

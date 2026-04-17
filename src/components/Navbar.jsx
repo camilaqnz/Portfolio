@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-12 py-5 bg-[#f8f8fc]/85 backdrop-blur-md border-b border-[#e2e2ee]">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-12 py-5 bg-[#f8f8fc]/85 backdrop-blur-md border-b border-[#e2e2ee] p-4">
       <a
         href="#hero"
         style={{ fontFamily: 'var(--font-display)' }}
