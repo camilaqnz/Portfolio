@@ -6,12 +6,12 @@ export default function Contact() {
           Contacto
         </p>
         <h2 style={{ fontFamily: 'var(--font-display)' }} className="text-[clamp(2.5rem,5vw,4rem)] leading-tight tracking-tight mb-7">
-          ¿Trabajamos <em className="text-[#7680d8]">juntos?</em>
+          ¿Trabajamos <em className="text-[#7680d8]" style={{ fontFamily: "'Playfair Display', serif" }}>juntos?</em>
         </h2>
-        <p className="text-white/55 text-base max-w-sm mx-auto leading-relaxed mb-14">
-          Estoy abierto a nuevos proyectos, colaboraciones y oportunidades freelance.
-          Escribime y hablemos.
-        </p>
+        {/* <p className="text-white/55 text-base max-w-sm mx-auto leading-relaxed mb-14">
+          Estoy disponible a nuevos proyectos, colaboraciones y oportunidades.
+          Escribime!
+        </p> */}
         <a
           href="mailto:qnzdiseno@gmail.com"
           style={{ fontFamily: 'var(--font-display)' }}

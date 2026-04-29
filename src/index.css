@@ -5,6 +5,7 @@
 @theme {
   --font-display: 'DM Serif Display', Georgia, serif;
   --font-body: 'DM Sans', sans-serif;
+  --font-secondary: 'Playfair', serif;
 
   --color-indigo-50:  #eef0fb;
   --color-indigo-100: #d5d9f5;

@@ -78,17 +78,17 @@ function ProjectCard({ num, title, tags, year, bg, border }) {
 export default function Work() {
   return (
     <section id="work" className="bg-white px-12 py-24">
-      <div className="flex items-end justify-between mb-14 pb-6 border-b border-[#e2e2ee]">
+      <div className="flex-col mb-14 pb-6 border-b border-[#e2e2ee]">
         <div>
           <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-[#5563c8] mb-2">Trabajo</p>
           <h2
-            style={{ fontFamily: 'var(--font-display)' }}
+            style={{ fontFamily: "'Playfair Display', serif" }}
             className="text-[clamp(2rem,3.5vw,3rem)] text-[#121a52] tracking-tight leading-none"
           >
             Proyectos seleccionados
           </h2>
         </div>
-        <p className="text-[15px] text-[#5a5a7a] max-w-xs leading-relaxed text-right">
+        <p className="text-[15px] text-[#5a5a7a] max-xs leading-relaxed text-left mt-6">
           Trabajo en productos digitales con foco en la experiencia del usuario y el crecimiento del negocio.
         </p>
       </div>
